@@ -1,0 +1,93 @@
+{
+  "pages":[
+  {
+    "page#": "0",
+    "page_type": "TITLE_SLIDE",
+    "page_content": {
+      "title":"0: PYTHON PPTX AUTOMATION",
+      "subtitle": "BY MARK GEIGER"
+  }
+  },
+  {
+    "page#": "1",
+    "page_type": "TEXT_SLIDE",
+    "page_content":{
+      "title": "1: The Text Slide",
+      "paragraphs": [
+        {
+          "text#": "0",
+          "text": "This Python PPTX program uses a JSON file to generate the pptx file. As long as you have a JSON file of the correct notation, you can have a powerpoint of any length and of any variation of the slides available in this program. Please have a look at the pptConfig.json file for further reference and clarification."
+        },
+        {
+          "text#": "1",
+          "text": "\nI have some Latin text below:"
+        },
+        {
+          "text#": "2",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      ]
+    }
+  },
+  {
+    "page#": "2",
+    "page_type": "LIST_SLIDE",
+    "page_content":{
+      "title": "2: The List Slide",
+      "lists": [
+        {
+          "listItem": "The 3 words I live by:",
+          "subListItems": true,
+          "subList": [
+            {
+              "subListItem": "Never"
+            },
+            {
+              "subListItem": "Give"
+            },
+            {
+              "subListItem": "Up"
+            }
+          ]
+        },
+        {
+          "listItem": "Another 3 words I live by:",
+          "subListItems": true,
+          "subList": [
+            {
+              "subListItem": "Just"
+            },
+            {
+              "subListItem": "Keep"
+            },
+            {
+              "subListItem": "Going"
+            }
+          ]
+        },
+        {
+          "listItem": "That's how you succeed",
+          "subListItems": false
+        }
+      ]
+    }
+  },
+  {
+    "page#": "3",
+    "page_type": "PICTURE_SLIDE",
+    "page_content": {
+      "title": "3: The Picture Slide",
+      "image": "./images/thumbnail.png",
+      "caption": "Caption: I have no idea what exactly what this is"
+    }
+  },
+  {
+    "page#": "4",
+    "page_type": "PLOT_SLIDE",
+    "page_content": {
+      "title": "4: The Plot Slide",
+      "data": "./data/solfrc_cntrl.dat"
+    }
+  }
+  ]
+}

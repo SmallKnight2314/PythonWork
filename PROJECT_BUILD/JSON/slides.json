@@ -1,0 +1,89 @@
+{
+  "pages":[
+  {
+    "page#": "0",
+    "page_type": "TITLE_SLIDE",
+    "page_content": {
+      "title":"TITLE",
+      "subtitle": "SUBTITLE"
+  }
+  },
+  {
+    "page#": "1",
+    "page_type": "TEXT_SLIDE",
+    "page_content":{
+      "title": "TITLE",
+      "paragraphs": [
+        {
+          "text#": "0",
+          "text": "Text"
+        },
+        {
+          "text#": "1",
+          "text": "text"
+        }
+      ]
+    }
+  },
+  {
+    "page#": "2",
+    "page_type": "LIST_SLIDE",
+    "page_content":{
+      "title": "TITLE",
+      "lists": [
+        {
+          "listItem": "ITEM",
+          "subListItems": true,
+          "subList": [
+            {
+              "subListItem": "ITEM"
+            },
+            {
+              "subListItem": "ITEM"
+            },
+            {
+              "subListItem": "ITEM"
+            }
+          ]
+        },
+        {
+          "listItem": "ITEM",
+          "subListItems": true,
+          "subList": [
+            {
+              "subListItem": "ITEM"
+            },
+            {
+              "subListItem": "ITEM"
+            },
+            {
+              "subListItem": "ITEM"
+            }
+          ]
+        },
+        {
+          "listItem": "ITEM",
+          "subListItems": false
+        }
+      ]
+    }
+  },
+  {
+    "page#": "3",
+    "page_type": "PICTURE_SLIDE",
+    "page_content": {
+      "title": "TITLE",
+      "image": "./images/thumbnail.png",
+      "caption": "TEXT"
+    }
+  },
+  {
+    "page#": "4",
+    "page_type": "PLOT_SLIDE",
+    "page_content": {
+      "title": "TITLE",
+      "data": "./data/solfrc_cntrl.dat"
+    }
+  }
+  ]
+}
